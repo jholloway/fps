@@ -12,7 +12,7 @@ p{font-size:1.375em;line-height:1.5em}
 .track, 
 .label{display:block}
 .track{border:5px solid #000;border-radius:8px;width:660px;margin:20px auto;padding:20px;height:50px;float:right}
-.slider{width:50px;height:50px;border-radius:100%}
+.slider{width:50px;height:50px;border-radius:100%;transform:translateZ(0);}
 ._15fps{background:#c30;transition:margin 1s steps(15,end)}
 ._30fps{background:#fc0;transition:margin 1s steps(30,end)}
 ._60fps{background:#090;transition:margin 1s steps(60,end)}
